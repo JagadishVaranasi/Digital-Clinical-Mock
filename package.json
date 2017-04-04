@@ -1,7 +1,7 @@
 {
   "name": "first-angular-demo",
   "version": "1.0.0",
-  "start":"node main.js",
+  "start":"node server.js",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run server\" ",
     "server": "node node_modules/ng2f-server/server.js",
